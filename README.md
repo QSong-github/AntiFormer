@@ -6,7 +6,7 @@
 
 
 
-### Installation
+## Installation
 Download Antiformer:
 ```git clone https://github.com/wq2581/Antiformer```
 
@@ -16,7 +16,7 @@ Installation Environment:
 Our code is all based on python. In order to install dependencies please enter the project path ```./AntiFormer``` and activate your python environment.
 
 
-### Running
+## Running
 
    The codes for dataset creating are stored in the ```./AntiFormer/data``` directory.
    
