@@ -1,6 +1,6 @@
 # AntiFormer
 
-## This code is prepared for "AntiFormer: graph enhanced large language model for binding affinity prediction".
+This code is prepared for "AntiFormer: graph enhanced large language model for binding affinity prediction".
 
 ## Overview
 
