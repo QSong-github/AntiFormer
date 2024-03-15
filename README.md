@@ -1,6 +1,6 @@
 # AntiFormer
 
-### This code is prepared for "Knowledge graph enhanced LLM for binding affinity prediction" (AntiFormer), our paper can be accessed at [here](http://。。。。).
+## This code is prepared for "AntiFormer: graph enhanced large language model for binding affinity prediction".
 
 ## Overview
 
