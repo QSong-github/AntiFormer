@@ -70,7 +70,7 @@ def bio_collate_fn(batch):
 
     # knowledge graph
     num_channels = 1
-    node_map = [input_ids.float() for _ in range(num_channels)]  # 输入特征
+    node_map = [input_ids.float() for _ in range(num_channels)]  
     node_map = torch.stack(node_map)
     adjs = [torch.ones(len(batch), len(batch)) for _ in range(num_channels)]
     adjs = torch.stack(adjs)
