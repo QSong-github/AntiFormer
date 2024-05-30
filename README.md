@@ -10,7 +10,7 @@ This code is prepared for "AntiFormer: graph enhanced large language model for b
 Download Antiformer:
 ```git clone https://github.com/wq2581/Antiformer```
 
-Installation Environment:
+Install Environment:
 ```pip install -r requirements.txt```
 
 Our code is all based on python. In order to install dependencies please enter the project path ```./AntiFormer``` and activate your python environment.
