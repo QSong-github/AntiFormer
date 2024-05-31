@@ -1,12 +1,12 @@
 from sklearn.model_selection import KFold
 import os
-
+import ast
 from transformers import BertTokenizer
 from datasets import Dataset
 from datasets import load_from_disk
+import re
 
-
-root_path = 'dataset_aa.txt'
+root_path = './dt_aa'
 
 
 def Freader(root_path):
@@ -19,7 +19,13 @@ def Freader(root_path):
         print(f)
         l = root_path+'/'+f
         with open(l, 'r') as file:
-            for line in f.readlines():
+            content = file.read()
+            pattern = re.compile(r'\[([^\]]+)\]')
+
+            matches = pattern.findall(content)
+
+            lists = [ast.literal_eval(f'[{match}]') for match in matches]
+            for line in lists:
                 input_ids_temp = line[0]
                 label_temp = line[1]
 
