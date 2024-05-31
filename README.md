@@ -4,7 +4,7 @@ This code is prepared for "AntiFormer: graph enhanced large language model for b
 
 ## Overview
 
-<embed src="./flowchart.pdf" type="application/pdf" width="600" height="400">
+![The flowchart.](./flowcgart_00.jpg)
 
 ## Installation
 Download Antiformer:
