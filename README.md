@@ -21,21 +21,26 @@ Our code is all based on python. In order to install dependencies please enter t
 
 ## Running
 
-   The codes for dataset creating are stored in the ```./AntiFormer/data``` directory.
+### Train from scratch
+   The codes for dataset creating are stored in the ```./AntiFormer/data``` directory. If you want to train from scratch, you need to start with data processing.
    
-   (1) Run ```python data_download.py``` to download the required data.
+   (1) Run ```bash
+$ cd /path/to/code
+$ python main.py
+``` to download the required data.
    
-   (2) Run ```python data_process.py``` for frequency statistics. Of course, we also provide the results of frequency statistics saved as txt files in this directory.
+   (2) Run ```data_process.py``` for frequency statistics. Of course, we also provide the results of frequency statistics saved as txt files in this directory.
    
-   (3) Run ```python dataset_making.py``` to build the dataset.
+   (3) Run ```dataset_making.py``` to build the dataset.
    
-   (4) Run ```python dt_rebuild.py``` to tokenize the input sequence and save it as a file of type Dataset saved in the ```./AntiFormer/dt``` path.
-  
-   We also provide partially processed data (2000 sequences) as demo, located under the ```./AntiFormer/subdt``` path.
+   (4) Run ```dt_rebuild.py``` to tokenize the input sequence and save it as a file of type Dataset saved in the ```./AntiFormer/dt``` path.
    
-   (5) Run ```python main.py``` to get the training and testing results.
+   (5) Run ``main.py``` to get the training and testing results.
+   
+### From pre-trained model
 
-   However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training. And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
+   We also provide partially processed data (2000 sequences) as demo, located under the ```./AntiFormer/subdt``` path. And the pre-trained model can be accessed from [google drive](https://drive.google.com/file/d/1D-mkFwoJzu7E__vJc3ahnFE4UVGYz4_Q/view?usp=sharing). Please download the model and put it into ```./AntiFormer/model_save``` directory.
+   However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training by . And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
 
 Or run the following code on the command line:
 ```bash
