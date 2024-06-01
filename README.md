@@ -24,10 +24,11 @@ Our code is all based on python. In order to install dependencies please enter t
 ### Train from scratch
    The codes for dataset creating are stored in the ```./AntiFormer/data``` directory. If you want to train from scratch, you need to start with data processing.
    
-   (1) Run ```bash
-$ cd /path/to/code
-$ python main.py
-``` to download the required data.
+   (1) Ddownload the required data.
+   ```bash
+   $ cd /path/to/code
+   $ python main.py
+   ```
    
    (2) Run ```data_process.py``` for frequency statistics. Of course, we also provide the results of frequency statistics saved as txt files in this directory.
    
