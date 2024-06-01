@@ -49,7 +49,7 @@ Our code is all based on python. In order to install dependencies please enter t
    
    (5) Get the training and testing results.
    ```bash
-   $ cd /path/to/code
+   $ cd /path/to/AntiFormer
    $ python main.py
    ```
    
