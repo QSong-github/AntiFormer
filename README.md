@@ -37,4 +37,8 @@ Our code is all based on python. In order to install dependencies please enter t
 
    However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training. And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
 
+## Quick start
+
+If you want to use our model, you can download the pre-trained model from google drive and quickly test it using the antiboy sequence provided by the tutorial.
+
    
