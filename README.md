@@ -33,7 +33,7 @@ Our code is all based on python. In order to install dependencies please enter t
   
    We also provide partially processed data (2000 sequences) as demo, located under the ```./AntiFormer/subdt``` path.
    
-   (5) Run ```python main.py``` to get the results.
+   (5) Run ```python main.py``` to get the training and testing results.
 
    However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training. And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
 
