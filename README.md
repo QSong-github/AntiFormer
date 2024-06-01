@@ -39,6 +39,6 @@ Our code is all based on python. In order to install dependencies please enter t
 
 ## Quick start
 
-If you want to use our model, you can download the pre-trained model from google drive and quickly test it using the antiboy sequence provided by the tutorial.
+If you want to use our model, you can download the pre-trained model from [google drive](https://drive.google.com/file/d/1D-mkFwoJzu7E__vJc3ahnFE4UVGYz4_Q/view?usp=sharing). and quickly test it using the antiboy sequence provided by the tutorial.
 
    
