@@ -27,7 +27,7 @@ Our code is all based on python. In order to install dependencies please enter t
    (1) Ddownload the required data.
    ```bash
    $ cd /path/to/data
-   $ python main.py
+   $ python data_download.py
    ```
    
    (2) Get the frequency statistics. Of course, we also provide the results of frequency statistics saved as txt files in this directory.
@@ -38,13 +38,13 @@ Our code is all based on python. In order to install dependencies please enter t
    (3) Build the dataset.
    ```bash
    $ cd /path/to/data
-   $ python main.py
+   $ python dataset_making.py
    ```
    
    (4) Tokenize the input sequence and save it as a file of type Dataset saved in the ```./AntiFormer/dt``` path.
    ```bash
    $ cd /path/to/data
-   $ python main.py
+   $ python dt_rebuild.py
    ```
    
    (5) Get the training and testing results.
