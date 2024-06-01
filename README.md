@@ -26,28 +26,38 @@ Our code is all based on python. In order to install dependencies please enter t
    
    (1) Ddownload the required data.
    ```bash
-   $ cd /path/to/code
+   $ cd /path/to/data
    $ python main.py
    ```
    
-   (2) Run ```data_process.py``` for frequency statistics. Of course, we also provide the results of frequency statistics saved as txt files in this directory.
+   (2) Get the frequency statistics. Of course, we also provide the results of frequency statistics saved as txt files in this directory.
+   ```bash
+   $ cd /path/to/data
+   $ python data_process.py
+   ```
+   (3) Build the dataset.
+   ```bash
+   $ cd /path/to/data
+   $ python main.py
+   ```
    
-   (3) Run ```dataset_making.py``` to build the dataset.
+   (4) Tokenize the input sequence and save it as a file of type Dataset saved in the ```./AntiFormer/dt``` path.
+   ```bash
+   $ cd /path/to/data
+   $ python main.py
+   ```
    
-   (4) Run ```dt_rebuild.py``` to tokenize the input sequence and save it as a file of type Dataset saved in the ```./AntiFormer/dt``` path.
-   
-   (5) Run ``main.py``` to get the training and testing results.
+   (5) Get the training and testing results.
+   ```bash
+   $ cd /path/to/code
+   $ python main.py
+   ```
    
 ### From pre-trained model
 
    We also provide partially processed data (2000 sequences) as demo, located under the ```./AntiFormer/subdt``` path. And the pre-trained model can be accessed from [google drive](https://drive.google.com/file/d/1D-mkFwoJzu7E__vJc3ahnFE4UVGYz4_Q/view?usp=sharing). Please download the model and put it into ```./AntiFormer/model_save``` directory.
    However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training by . And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
 
-Or run the following code on the command line:
-```bash
-$ cd /path/to/code
-$ python main.py
-```
 
 ## Quick start
 
