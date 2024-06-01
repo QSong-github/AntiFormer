@@ -37,14 +37,10 @@ Our code is all based on python. In order to install dependencies please enter t
 
    However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training. And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
 
+Or run the following code on the command line:
 ```bash
-participant_id    diagnosis    age    sex ...
-subject-1	    -1         57.3   0
-subject-2 	     1         43.5   1
-subject-3           -1         53.8   1
-subject-4            1         56.0   0
-subject-5            1	       60.0   1
-subject-6            1         62.5   0
+$ cd /path/to/code
+$ python main.py
 ```
 
 ## Quick start
