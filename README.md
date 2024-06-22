@@ -41,13 +41,13 @@ Our code is all based on python. In order to install dependencies please enter t
    $ python dataset_making.py
    ```
    
-   (4) Tokenize the input sequence and save it as a file of type Dataset saved in the ```./AntiFormer/dt``` path.
+   (4) Tokenize the input sequence
    ```bash
    $ cd /path/to/data
    $ python dt_rebuild.py
    ```
    
-   (5) Get the training and testing results including Accuracy, F1, Precision, etc.
+   (5) Run AntiFormer and get the prediction results (e,g. Accuracy, F1 score) on training and testing set.
    ```bash
    $ cd /path/to/AntiFormer
    $ python main.py
