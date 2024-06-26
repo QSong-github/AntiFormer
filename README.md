@@ -47,7 +47,7 @@ Our code is all based on python. In order to install dependencies please enter t
    $ python dt_rebuild.py
    ```
    
-   (5) Run AntiFormer and get the prediction results (e,g. Accuracy, F1 score) on training and testing set.
+   (5) Run AntiFormer and get the prediction results.
    ```bash
    $ cd /path/to/AntiFormer
    $ python main.py
