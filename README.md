@@ -55,12 +55,12 @@ Our code is all based on python. In order to install dependencies please enter t
    
 ### From pre-trained model
 
-   We also provide partially processed data (2000 sequences) as demo, located under the ```./AntiFormer/subdt``` path. And the pre-trained model can be accessed from [google drive](https://drive.google.com/file/d/1D-mkFwoJzu7E__vJc3ahnFE4UVGYz4_Q/view?usp=sharing). Please download the model and put it into ```./AntiFormer/model_save``` directory.
+   We also provide partially processed data (2000 sequences) as demo, located under the ```./AntiFormer/subdt``` path. And the pre-trained model can be accessed from [zenodo](https://zenodo.org/records/12749284). Please download the model and put it into ```./AntiFormer/model_save``` directory.
    However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training by . And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
 
 
 ## Quick start
 
-If you want to use our model, you can download the pre-trained model from [google drive](https://drive.google.com/file/d/1D-mkFwoJzu7E__vJc3ahnFE4UVGYz4_Q/view?usp=sharing) and quickly test it using the antiboy sequence provided by the tutorial.
+If you want to use our model, you can download the pre-trained model from [zenodo](https://zenodo.org/records/12749284) and quickly test it using the antiboy sequence provided by the tutorial.
 
    
