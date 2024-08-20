@@ -1,6 +1,6 @@
 # AntiFormer
 
-This code is prepared for "AntiFormer: graph enhanced large language model for binding affinity prediction".
+This code is prepared for "AntiFormer: graph enhanced large language model for binding affinity prediction, Briefings in Bioinformatics, https://doi.org/10.1093/bib/bbae403".
 
 ## Overview
 
@@ -58,9 +58,13 @@ Our code is all based on python. In order to install dependencies please enter t
    We also provide partially processed data (2000 sequences) as demo, located under the ```./AntiFormer/subdt``` path. And the pre-trained model can be accessed from [zenodo](https://zenodo.org/records/12749284). Please download the model and put it into ```./AntiFormer/model_save``` directory.
    However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training by . And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
 
-
 ## Quick start
 
 If you want to use our model, you can download the pre-trained model from [zenodo](https://zenodo.org/records/12749284) and quickly test it using the antiboy sequence provided by the tutorial.
+
+## Citation
+Qing Wang, Yuzhou Feng, Yanfei Wang, Bo Li, Jianguo Wen, Xiaobo Zhou, Qianqian Song, AntiFormer: graph enhanced large language model for binding affinity prediction, Briefings in Bioinformatics, Volume 25, Issue 5, September 2024, bbae403, https://doi.org/10.1093/bib/bbae403
+
+
 
    
